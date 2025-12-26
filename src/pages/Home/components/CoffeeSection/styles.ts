@@ -5,12 +5,12 @@ export const CoffeeSection = styled.section`
     flex-direction: column;
     align-items: flex-start;
     gap: 3.375rem;
-    flex-shrink: 0;
 
     width: 100%;
-    height: 102.813rem;
 
-    padding: 2rem 10rem 10rem 10rem;
+    max-width: 74rem;
+    margin: 0 auto;
+    padding: 2rem 2rem 10rem 2rem;
 
     h1 {
         font-family: 'Baloo 2', cursive;

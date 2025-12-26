@@ -2,18 +2,18 @@ import styled from "styled-components";
 
 export const HeroSection = styled.section`
     display: flex;
-    flex-shrink: 0;
     gap: 3.5rem;
     
-    max-width: 90rem;
-    height: 34rem;
+    width: 100%;
+    min-height: 34rem;
 
-    padding: 5.75rem 10rem;
+    max-width: 74rem; 
+    margin: 0 auto;
+    padding: 5.75rem 2rem;
 
     img {        
         height: 22.5rem;
         width: 29.75rem;
-
         margin-top: 5.75rem;
     }
 `

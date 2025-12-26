@@ -5,7 +5,10 @@ export const HeaderContainer = styled.header`
     align-items: center;
     justify-content: space-between;
     
-    margin: 2rem 10rem;
+    width: 100%;
+    max-width: 74rem; 
+    margin: 2rem auto; 
+    padding: 0 2rem;
 
 
     img {
